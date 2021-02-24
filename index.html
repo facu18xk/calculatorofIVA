@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <article class="form">
+                    <h1>Calcular Iva</h1>
+                    <label for="" class="form__span--title">Elije el porcentaje de iva de tu país</label>
+                    <span class="form__span--subtitle">Si no lo sabes lee el articulo de abajo y encuentra el % de tu país</span>
+                    <input list="percent" class="form__input--main">
+                    <datalist id="percent">
+                        <option value="27"></option>
+                        <option value= "22"></option>
+                        <option value="21"></option>
+                        <option value="10.5"></option>
+                        <option value="19"></option>
+                        <option value="18"></option>
+                        <option value="17"></option>
+                        <option value="16"></option>
+                        <option value="16"></option>
+                        <option value="15"></option>
+                        <option value="13"></option>
+                        <option value="12"></option>
+                        <option value="11.5"></option>
+                        <option value="10"></option>
+                        <option value="8"></option>
+                        <option value="7"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="2.5"></option>
+                    </datalist>
+                    <label class="pri" for="price">Precio sin Iva</label>
+                    <input class="form__label--input" type="number" name="price">
+                    <span class="form__span--result"></span>
+                    <span class="form__span--result2"></span>
+                    <button onclick="CALCULATEPERCENT()">Calcular!</button>
+            </article>
+            <article>
+                <h2>¿Qué es el IVA?</h2>
+                <p>El IVA (impuesto al valor agregado, impuesto sobre el valor menorado y el valor añadido o impuesto sobre el valor añadido) es una carga fiscal sobre el consumo, es decir, financiado por el consumidor como impuesto regresivo,​ aplicado en muchos países y generalizado en la Unión Europea.</p>
+                <ul>
+                    <ol>
+                        <li>general 21%
+                            reducido 10%
+                            4%
+                            </li>
+                    </ol>
+                    <ol>
+                        <li></li>
+                    </ol>
+                    <ol>
+                        <li></li>
+                    </ol>
+                    <ol>
+                        <li></li>
+                    </ol>
+                    <ol>
+                        <li></li>
+                    </ol>
+                    <ol>
+                        <li></li>
+                    </ol>
+                    <ol>
+                        <li></li>
+                    </ol>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
