@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadoras</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
@@ -49,40 +49,29 @@
                     <span class="form__span--result2"></span>
                     <button class="btncalc" onclick="CALCULATEPERCENT()">Calcular!</button>
             </article>
-            <article>
+            <article class="text">
                 <h2>¿Qué es el IVA?</h2>
                 <p>El IVA (impuesto al valor agregado, impuesto sobre el valor menorado y el valor añadido o impuesto sobre el valor añadido) es una carga fiscal sobre el consumo, es decir, financiado por el consumidor como impuesto regresivo,​ aplicado en muchos países y generalizado en la Unión Europea.</p>
-                <ul>
-                    <li>Espa
-                        <li>21% general</li>
-                        <li>10% y 4% reducido</li>
-                    </li>
-                </ul>
-                <ul>
-                    <li>Argentina
-                        <li>Aumentado 27%</li>
-                        <li>21% general</li>
-                        <li>10% y 4% reducido</li>
-                    </li>
-                </ul>
-                <ul>
-                    <li>Paraguay
-                        <li>10% general</li>
-                        <li>5% reducido</li>
-                    </li>
-                </ul>
-                <ul>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                </ul>
+                <label for="country"></label>
+                <h3 class="text--label">¿Cual es el porcentaje de  iva en mi pais?</h3>
+                    <input list="countries" class="text--input" placeholder="Elija un pais de la lista">
+                    <datalist id="countries">
+                        <option value="Uruguay"></option>
+                        <option value= "Argentina"></option>
+                        <option value="Chile"></option>
+                        <option value="Perú – Rep. Dominicana"></option>
+                        <option value="Brasil"></option>
+                        <option value="México – Colombia"></option>
+                        <option value="Honduras – Nicaragua"></option>
+                        <option value="Bolivia – Costa Rica – El Salvador"></option>
+                        <option value="Ecuador – Guatemala – Venezuela"></option>
+                        <option value="Puerto Rico"></option>
+                        <option value="Paraguay"></option>
+                        <option value="Panama"></option>
+                        <option value="Espanha"></option>
+                    </datalist>
+                    <button onclick="myIva()" class="btnwant">Quiero saberlo!</button>
+                    <span class="text--ivanoredux"></span>
             </article>
         </section>
     </main>
