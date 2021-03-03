@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Noto Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+header{
+    box-shadow: 7px 5px 40px -14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 5px 40px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 5px 40px -14px rgba(0,0,0,0.75);
+    width: 100vw;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.header--img{
+    margin-left: 15px;
+    width: 70px;
+    height: 70px;
+}
+.header--title{
+    font-weight: 700;
+    font-size: 1.9rem;
+    margin-left: 10px;
+    color: white;
+}
+.form{
+    margin-top: 30px;
+    width: 80%;
+    height: 70%;
+    background-color:rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 7px 5px 40px -14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 5px 40px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 5px 40px -14px rgba(0,0,0,0.75);
+}
+.form h1{
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.form__span--title{
+    font-weight: 400;
+    font-size: 1.55rem;
+}
+.form__span--subtitle{
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.form__input--main{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 70%;
+}
+.form__input--main:hover{
+    background-color: white;
+    outline: none;
+}
+.pri{
+    font-size: 1.4rem;
+}
+.form__label--input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 50%;
+}
+.form__label--input:hover{
+    background-color: white;
+    outline: none;
+}
+.form__span--result{
+    font-size: 1.4rem;
+}
+.form__span--result2{
+    font-size: 1.4rem;
+}
+.btncalc{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.btncalc:hover{
+    outline: none;
+    border-radius: 20px;
+    background-color: white;
+}

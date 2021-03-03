@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <main>
+        <header>
+            <img class="header--img" src="./assets/calculator.svg" alt="Lig">
+            <span class="header--title">Calculadoras.me</span>
+        </header>
         <section>
             <article class="form">
                     <h1>Calcular Iva</h1>
                     <label for="" class="form__span--title">Elije el porcentaje de iva de tu país</label>
                     <span class="form__span--subtitle">Si no lo sabes lee el articulo de abajo y encuentra el % de tu país</span>
-                    <input list="percent" class="form__input--main">
+                    <input list="percent" class="form__input--main" placeholder="Elija un porcentaje de la lista">
                     <datalist id="percent">
                         <option value="27"></option>
                         <option value= "22"></option>
@@ -36,39 +44,44 @@
                         <option value="2.5"></option>
                     </datalist>
                     <label class="pri" for="price">Precio sin Iva</label>
-                    <input class="form__label--input" type="number" name="price">
+                    <input class="form__label--input" type="number" name="price" placeholder="Precio...">
                     <span class="form__span--result"></span>
                     <span class="form__span--result2"></span>
-                    <button onclick="CALCULATEPERCENT()">Calcular!</button>
+                    <button class="btncalc" onclick="CALCULATEPERCENT()">Calcular!</button>
             </article>
             <article>
                 <h2>¿Qué es el IVA?</h2>
                 <p>El IVA (impuesto al valor agregado, impuesto sobre el valor menorado y el valor añadido o impuesto sobre el valor añadido) es una carga fiscal sobre el consumo, es decir, financiado por el consumidor como impuesto regresivo,​ aplicado en muchos países y generalizado en la Unión Europea.</p>
                 <ul>
-                    <ol>
-                        <li>general 21%
-                            reducido 10%
-                            4%
-                            </li>
-                    </ol>
-                    <ol>
-                        <li></li>
-                    </ol>
-                    <ol>
-                        <li></li>
-                    </ol>
-                    <ol>
-                        <li></li>
-                    </ol>
-                    <ol>
-                        <li></li>
-                    </ol>
-                    <ol>
-                        <li></li>
-                    </ol>
-                    <ol>
-                        <li></li>
-                    </ol>
+                    <li>Espa
+                        <li>21% general</li>
+                        <li>10% y 4% reducido</li>
+                    </li>
+                </ul>
+                <ul>
+                    <li>Argentina
+                        <li>Aumentado 27%</li>
+                        <li>21% general</li>
+                        <li>10% y 4% reducido</li>
+                    </li>
+                </ul>
+                <ul>
+                    <li>Paraguay
+                        <li>10% general</li>
+                        <li>5% reducido</li>
+                    </li>
+                </ul>
+                <ul>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
                 </ul>
             </article>
         </section>
